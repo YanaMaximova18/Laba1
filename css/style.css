@@ -6,6 +6,7 @@
     --primary-color: rgb(24, 22, 45, 1);
     --primary-colorWh: rgb(255, 255, 255, 1);
     --primary-colorBl: rgb(53, 121, 244, 1);
+    box-sizing: border-box;
 }
 h1{
     font-size: 3.8rem;
@@ -13,6 +14,14 @@ h1{
     color:var(--primary-color);
     line-height: 1.1;
     text-align: left;
+/*     width: 237px;
+    height: 42px;*/
+    padding-left: 2.7rem;
+    padding-top: 13.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 11.1rem; 
+/*     margin-top: 0;
+    margin-bottom: 3.8em; */
 }
 h2{
     font-size: 3.4rem;
@@ -36,6 +45,12 @@ p{
     color: rgb(24, 22, 45, 0.9);
     line-height: 1.5;
     text-align: left;
+/*    width: 320px;
+    height: 72px;
+    margin-top: 2.5rem;
+    margin-left: 2.9rem;
+    margin-right: 2.6rem;
+    margin-bottom: 1.5rem; */
 } 
 .class-p2{
     font-size: 1.8rem;
@@ -43,6 +58,12 @@ p{
     color: var(--primary-colorBl);
     line-height: 1.2;
     text-transform: uppercase;
+/*     width: 278px;
+    height: 22px;
+    margin-top: 5rem;
+    margin-left: 2.7rem;
+    margin-right: 7rem;
+    margin-bottom: 2.5rem; */
 }
 .class-p3{
     font-family: 'Mulish', sans-serif;
