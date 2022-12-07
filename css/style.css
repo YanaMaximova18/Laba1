@@ -17,7 +17,7 @@ h1{
     width: 23.7rem;
     height: 4.2rem;
     margin-left: 0.71em;
-    margin-top: 3.55em;
+    margin-top: 1.37em;
     margin-bottom: 0.33em;
     margin-right: 2.92em; 
 
@@ -190,12 +190,18 @@ footer{
 }
 .input{
     background-color: rgb(85, 145, 255, 1);
+    min-width: 32rem;
+    min-height: 6rem;
+    border: 0;
+    padding-left: 2.7rem;
+    padding-right: 2.8rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0;
+    border-radius: 1rem;
 }
 
 ::placeholder {
     color: rgb(255, 255, 255, 0.9);
-    /* текст внутри
-    padding-left: 1.69em; */
 }
 li{
     list-style: none;
@@ -225,6 +231,7 @@ li{
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-right: 2.5rem;
+    margin-left: 16.5rem;
 }
 ul{
     margin: 0;
@@ -238,4 +245,14 @@ ul{
 }
 .lif2{
     padding-top: 1.7rem;
+}
+.imgB{
+    margin-top: 4.1rem;
+    margin-right: 2.7rem;
+    border: 0;
+    margin-left: 31.7rem;
+}
+.pF{
+    margin-bottom: 1.5rem;
+    margin-top: 0;
 }
