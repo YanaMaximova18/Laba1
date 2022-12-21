@@ -329,11 +329,6 @@ nav{
 .div-foot{
     text-align: center;
 }
-/* .div-s1{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 9rem;
-} */
 .div-s22{
     margin-bottom: 4rem;
 }
@@ -354,6 +349,26 @@ nav{
     }
     .imgB{
         display: none;
+    }
+    .img1{
+        display: none;
+    }
+    .img11{
+        display: initial;
+    }
+    .img-f2{
+        display: initial;
+        object-fit: contain;
+        width: 370px;
+        height: 325px;
+        margin-left: auto;
+        margin-right: -2rem;
+    }
+    .div-s1{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 9rem;
+        align-items: center;
     }
     .for-1000{
         display: initial;
