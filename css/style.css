@@ -373,7 +373,6 @@ nav{
     margin-bottom: 2.56em;
     text-align: center;
     display: inline-block;
-    transition: background 0.3s, color 0.3s;
 }
 .class-but-f{
     background: rgb(240, 240, 250, 1);
@@ -385,6 +384,7 @@ nav{
     padding-right: 1.7em;
     padding-top: 1.25em;
     padding-bottom: 1.25em;
+    transition: all 0.3s;
 }
 button:hover{
     background: radial-gradient(rgb(186, 102, 255), rgb(77, 0, 153));
@@ -417,6 +417,9 @@ button:hover{
 }
 :focus{
     background-color:rgb(163,102,255);
+}
+p:active{
+    /* background-color:rgb(163,102,255); */
 }
 @media all and (min-width: 800px){
     nav{

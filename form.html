@@ -25,22 +25,25 @@
         <form class="form" name="contact" method="POST" data-netlify="true">
             <fieldset>
                 <legend>Personal information</legend>
-                    <p class="p-form">Name</p>
-                    <label><input class="input-form" type="text" placeholder="Name" required></label>
+                <!-- <label for="inname"><p class="lab">Имя</p></label>
+                <input required placeholder="Имя" name="username" id="inname" type="text"> -->
+                    <lable for="1"><p class="p-form">Name</p>
+                    <input required id="1" placeholder="Name" name="username" type="text" class="input-form"> 
+                </label> 
                     <p class="p-form">Date</p>
-                    <label><input class="input-form" type="date" placeholder="Date" required></label>
+                    <label><input class="input-form" type="date" placeholder="Date" name="date" required></label>
                     <p class="p-form"><legend>Choose gender</legend></p>
                     <label><input type="radio" name="level">W</label>
                     <label><input type="radio" name="level">M</label>
                     <p class="p-form">Password</p>
-                    <label><input class="input-form" type="password" placeholder="Password" required></label>
+                    <label><input class="input-form" type="password" placeholder="Password" name="password" required></label>
             </fieldset>
             <fieldset>
                 <legend>Contact</legend>
                 <p class="p-form">Email</p>
-                <label><input class="input-form" type="email" placeholder="Email"></label>
+                <label><input class="input-form" type="email" placeholder="Email" name="email"></label>
                 <p class="p-form">Telephone</p>
-                <label><input class="input-form" type="tel" placeholder="Telephone"></label>
+                <label><input class="input-form" type="tel" placeholder="Telephone" name="telephone"></label>
                 <p class="p-form">Convenient time</p>
                 <select name="time">
                     <option value="">Chose time</option>
