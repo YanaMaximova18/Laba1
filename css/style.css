@@ -29,9 +29,13 @@ h1{
     line-height: 1.1;
     text-align: left;
     width: 23.7rem;
-    height: 4.2rem;
+    height: 4.5rem;
     margin-top: 1.37em;
     margin-bottom: 0.33em;
+    background-image: linear-gradient(to left, var(--primary-colorBl), rgb(186, 102, 255));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 h2{
     font-size: 3.4rem;
@@ -342,6 +346,77 @@ nav{
 }
 .for-mob{
     display: initial; 
+}
+/* форма */
+.body-form{
+    margin-left: 0;
+}
+.foot-form{
+    position: sticky;
+    top: 100vh;
+}
+.form{
+    padding-top: 10px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+.p-form{
+    margin-bottom: 0.2rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+.butt-form{
+    line-height: 1.1875;
+    padding-left: 1.69em;
+    padding-right: 1.75em;
+    margin-top: 3.44em;
+    margin-bottom: 2.56em;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s, color 0.3s;
+}
+.class-but-f{
+    background: rgb(240, 240, 250, 1);
+    border-radius: 1rem;
+    border: 0;
+    color: rgb(140, 140, 140, 1);
+    text-transform: uppercase;
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+button:hover{
+    background: radial-gradient(rgb(186, 102, 255), rgb(77, 0, 153));
+    color:honeydew;
+    transform: scale(1.1);
+}
+.input-form{
+    background-color: rgb(85, 145, 255, 1);
+    padding-left: 2.7rem;
+    padding-right: 2.8rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.19em;
+    border-radius: 1rem;
+    border: 0;
+    margin-left: 0rem;
+    width: 190px;
+}
+.class-pF{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--primary-colorBl);
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 2.78em;
+    margin-bottom: 1.39em;
+    padding-left: 2.7em;
+}
+::selection{
+    color: rgb(77, 0, 153);
+}
+:focus{
+    background-color:rgb(163,102,255);
 }
 @media all and (min-width: 800px){
     nav{
